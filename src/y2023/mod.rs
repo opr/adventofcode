@@ -1,0 +1,42 @@
+mod day1;
+mod day10;
+mod day11;
+mod day12;
+mod day13;
+mod day14;
+mod day15;
+mod day16;
+mod day17;
+mod day17old;
+mod day18;
+mod day19;
+mod day2;
+mod day3;
+mod day4;
+mod day5;
+mod day6;
+mod day7;
+mod day8;
+mod day9;
+
+pub fn y2023_main() {
+    //day1::task();
+    //day2::task();
+    //day3::task();
+    //day4::task();
+    //day5::task();
+    //day6::task();
+    //day7::task();
+    //day8::task();
+    //day9::task();
+    //day10::task();
+    //day11::task2();
+    //day12::task();
+    //day13::task();
+    //day14::task();
+    //day15::task();
+    //day16::task();
+    //day17::task();
+    //day18::task();
+    day19::task();
+}

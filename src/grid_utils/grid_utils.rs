@@ -197,6 +197,10 @@ mod tests {
     }
 }
 
+pub fn get_neighbor_indices( i: usize, grid_width: usize ) -> ( isize, isize, isize, isize ) {
+    ( i as isize - 1, i as isize + 1, i as isize - grid_width as isize, i as isize + grid_width as isize )
+}
+
 pub fn find_manhattan_distance<T: GridPoint>( g1: T, g2: T ) -> usize {
     return g1.get_y().abs_diff( g2.get_y() ) + g1.get_x().abs_diff( g2.get_x() );
 }

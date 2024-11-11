@@ -10,6 +10,8 @@ mod day17;
 mod day17old;
 mod day18;
 mod day19;
+mod day20;
+mod day21;
 mod day2;
 mod day3;
 mod day4;
@@ -38,5 +40,7 @@ pub fn y2023_main() {
     //day16::task();
     //day17::task();
     //day18::task();
-    day19::task();
+    //day19::task();
+    //day20::task();
+    day21::task();
 }

@@ -1,30 +1,7 @@
 mod day1;
-mod day10;
-mod day11;
-mod day12;
-mod day13;
-mod day14;
-mod day15;
-mod day16;
-mod day17;
-mod day17old;
-mod day18;
-mod day19;
-mod day20;
-mod day21;
-mod day22;
-mod day22_alt;
-mod day2;
-mod day3;
-mod day4;
-mod day5;
-mod day6;
-mod day7;
-mod day8;
-mod day9;
 
-pub fn y2023_main() {
-    //day1::task();
+pub fn y2024_main() {
+    day1::task();
     //day2::task();
     //day3::task();
     //day4::task();
@@ -45,5 +22,5 @@ pub fn y2023_main() {
     //day19::task();
     //day20::task();
     //day21::task();
-    day22::task();
+    //day22::task();
 }

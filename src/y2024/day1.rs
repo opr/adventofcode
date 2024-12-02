@@ -12,12 +12,12 @@ pub fn task() {
         acc + usize::abs_diff( *item, *right.iter().nth( index ).unwrap() )
     } );
 
-    println!("Part 1 in {:?}", start.elapsed());
+    println!("Part 1 {answer} in {:?}", start.elapsed());
     let frequencies = generate_frequency_map(&right);
     let answer =
         left.iter().fold( 0, | acc, item | acc + ( frequencies.get( item ).unwrap_or(&0) * item ) );
 
-    println!("Part 2 in {:?}", start.elapsed());
+    println!("Part 2 {answer} in {:?}", start.elapsed());
 }
 fn generate_frequency_map(input : &Vec<usize>) -> HashMap<usize,usize> {
     input

@@ -1,8 +1,9 @@
 mod day1;
+mod day2;
 
 pub fn y2024_main() {
-    day1::task();
-    //day2::task();
+    //day1::task();
+    day2::task();
     //day3::task();
     //day4::task();
     //day5::task();

@@ -1,5 +1,3 @@
-use std::cmp::Ordering::{Greater, Less};
-use itertools::Itertools;
 use regex::Regex;
 use crate::input_reader::input_reader::read_input_for_day;
 

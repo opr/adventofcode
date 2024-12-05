@@ -1,5 +1,4 @@
 use std::collections::{HashMap, HashSet};
-use std::fs::create_dir;
 use itertools::Itertools;
 use crate::input_reader::input_reader::read_input_for_day;
 
